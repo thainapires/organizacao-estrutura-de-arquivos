@@ -28,8 +28,7 @@ def cmp ( ta, tb ):
 	if ta[cepColumn] > tb[cepColumn]: return 1
 	return -1
 
-cont2 = 0 '''variavel para conseguir comecar a escrever um bloco que acabou de ser lido no local adequadro, pois como esta sendo escrito no mesmo arquivo,
-cada vez que leio um bloco, o buffer fica no final do bloco e precisa voltar para o comeco'''
+cont2 = 0
 
 for i in tamBlocos:	
 	listOrdena = []
