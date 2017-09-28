@@ -28,7 +28,7 @@ def cmp ( ta, tb ):
 	if ta[cepColumn] > tb[cepColumn]: return 1
 	return -1
 
-cont2 = 0
+cont2 = 0 #variavel para conseguir se locomover no arquivo
 
 for i in tamBlocos:	
 	listOrdena = []
